@@ -56,3 +56,7 @@ No server-side application, database, paid framework, tracking service, or depen
 Run `python3 build.py`, then `python3 check.py`. For root-path local preview run `SITE_BASE_PATH="" python3 build.py`. Preview with `python3 -m http.server 4173 --bind 127.0.0.1 --directory dist`. On this Mac, the bundled Python path is `/Users/robertsarison/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3` because the system Python requires unavailable developer tools.
 
 No secrets belong in `config.json`; settings there are public website information. New external links must be valid HTTPS URLs. Never store authentication tokens in the repository.
+
+## Testimonials
+
+The homepage supports genuine, approved testimonials. At Rob’s request, clearly labeled fictional examples are displayed only while `publicLaunch` is false. Entries with `sample: true` are excluded from a public-launch build, even if permission is later set. Replace them with genuine quotes and remove the sample flag before publishing. Give Codex the exact quote, approved attribution and relationship context. Each entry in `config.json` needs `quote`, `attribution`, `context`, and `permissionToPublish: true`. Do not repurpose senior-living testimonials as therapy-client endorsements. Quotes are escaped as plain text; entries without confirmed permission stay hidden.

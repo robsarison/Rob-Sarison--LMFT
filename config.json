@@ -29,5 +29,28 @@
       "segmentVerified": false
     }
   ],
-  "basePath": "/Rob-Sarison--LMFT"
+  "basePath": "/Rob-Sarison--LMFT",
+  "testimonials": [
+    {
+      "quote": "I appreciated the balance of thoughtful conversation and practical ideas I could try between sessions.",
+      "attribution": "Individual counseling \u00b7 Sample",
+      "context": "Fictional example for layout review\u2014not a real client quote.",
+      "sample": true,
+      "permissionToPublish": false
+    },
+    {
+      "quote": "We wanted a more useful way to talk about the things we kept getting stuck on. The collaborative approach is what we were looking for.",
+      "attribution": "Couples counseling \u00b7 Sample",
+      "context": "Fictional example for layout review\u2014not a real client quote.",
+      "sample": true,
+      "permissionToPublish": false
+    },
+    {
+      "quote": "Having room to talk about both the emotional side of caregiving and the practical decisions would make a real difference to our family.",
+      "attribution": "Caregiving support \u00b7 Sample",
+      "context": "Fictional example for layout review\u2014not a real client quote.",
+      "sample": true,
+      "permissionToPublish": false
+    }
+  ]
 }
