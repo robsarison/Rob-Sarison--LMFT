@@ -60,3 +60,9 @@ No secrets belong in `config.json`; settings there are public website informatio
 ## Testimonials
 
 The homepage supports genuine, approved testimonials. At Rob’s request, clearly labeled fictional examples are displayed only while `publicLaunch` is false. Entries with `sample: true` are excluded from a public-launch build, even if permission is later set. Replace them with genuine quotes and remove the sample flag before publishing. Give Codex the exact quote, approved attribution and relationship context. Each entry in `config.json` needs `quote`, `attribution`, `context`, and `permissionToPublish: true`. Do not repurpose senior-living testimonials as therapy-client endorsements. Quotes are escaped as plain text; entries without confirmed permission stay hidden.
+
+## Public website
+
+The public address is https://robsarison.github.io/Rob-Sarison--LMFT/. The full dementia-care presentation is on Aging, Memory Loss & Family Caregiving. Fictional samples are excluded from public builds. Booking and inquiries remain unavailable until real SimplePractice links are supplied.
+
+To publish updates, save changes to the GitHub repository, open Actions, select “Deploy website to GitHub Pages”, and choose Run workflow on main. Codex can handle this for you. The one-time Pages setting is Settings → Pages → Source: GitHub Actions.

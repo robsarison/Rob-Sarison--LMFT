@@ -11,9 +11,10 @@ if manifest.exists():
  m=json.loads(manifest.read_text());m['static']={'directory':'dist'};manifest.write_text(json.dumps(m,indent=2))
 nav=[('/about/','About Rob'),('/psychotherapy/','Psychotherapy'),('/aging-memory-caregiving/','Aging & caregiving'),('/fees-faq/','Fees & FAQ')]
 def button(label='Schedule a consultation',url='/contact/#consultation',light=False):return f'<a class="button{ " light" if light else ""}" href="{esc(url,quote=True)}">{label}</a>'
-def video():
- v=c['videos'][0]
- return f'<div class="video"><button data-video="{esc(v["id"])}" data-start="{v["start"]}" aria-label="Load Rob Sarison video from YouTube">▷ &nbsp; Meet Rob on video</button></div><p class="video-note">Original video: “Rob Sarison.” Loading the player connects to YouTube. <a href="https://www.youtube.com/watch?v={esc(v["id"])}">Watch on YouTube</a>.</p>'
+def video(index=0):
+ v=c['videos'][index]
+ title=esc(v['title'],quote=True);label=esc(v.get('label','Meet Rob on video'))
+ return f'<div class="video"><button data-video="{esc(v["id"])}" data-start="{v["start"]}" data-title="{title}" aria-label="Load {title} from YouTube">▷ &nbsp; {label}</button></div><p class="video-note">Original video: “{title}.” Loading the player connects to YouTube. <a href="https://www.youtube.com/watch?v={esc(v["id"])}">Watch on YouTube</a>.</p>'
 def page(path,title,description,body,cta=True):
  links=''.join(f'<a href="{u}"'+(' aria-current="page"' if path==u else '')+f'>{l}</a>' for u,l in nav)
  canonical=c['origin'].rstrip('/')+path

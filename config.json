@@ -4,7 +4,7 @@
   "location": "San Francisco Bay Area",
   "telehealth": "California telehealth",
   "origin": "https://robsarison.github.io/Rob-Sarison--LMFT",
-  "publicLaunch": false,
+  "publicLaunch": true,
   "licenseNumber": null,
   "phone": null,
   "email": null,
@@ -27,6 +27,14 @@
       "title": "Rob Sarison",
       "start": 0,
       "segmentVerified": false
+    },
+    {
+      "id": "TLS_fw9R5lM",
+      "title": "Play\u2019s the Thing! \u2014 Creative Arts and Dementia Symposium",
+      "start": 0,
+      "fullLength": true,
+      "label": "Watch the full presentation \u00b7 1 hr 4 min",
+      "source": "Alzheimer\u2019s Association California & Nevada"
     }
   ],
   "basePath": "/Rob-Sarison--LMFT",
