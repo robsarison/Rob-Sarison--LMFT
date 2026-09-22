@@ -1,0 +1,33 @@
+{
+  "name": "Rob Sarison",
+  "credentials": "LMFT, RDT",
+  "location": "San Francisco Bay Area",
+  "telehealth": "California telehealth",
+  "origin": "https://robsarison.github.io/Rob-Sarison--LMFT",
+  "publicLaunch": false,
+  "licenseNumber": null,
+  "phone": null,
+  "email": null,
+  "officeAddress": null,
+  "fees": {
+    "individual": null,
+    "couples": null,
+    "family": null
+  },
+  "simplePractice": {
+    "consultationUrl": null,
+    "inquiryUrl": null,
+    "portalUrl": null
+  },
+  "socialLinks": [],
+  "portrait": null,
+  "videos": [
+    {
+      "id": "2z5Tg5HwfWo",
+      "title": "Rob Sarison",
+      "start": 0,
+      "segmentVerified": false
+    }
+  ],
+  "basePath": "/Rob-Sarison--LMFT"
+}
