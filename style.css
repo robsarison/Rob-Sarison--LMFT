@@ -8,3 +8,12 @@
 .video{width:100%;min-width:0}.editorial .video{min-height:0}.video button{max-width:90%;padding:18px 22px;font-size:15px}
 
 .testimonials{background:#e5e9e5}.testimonial-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:36px;margin-top:40px}.testimonial{margin:0;padding:30px 0;border-top:1px solid #9dafa9}.testimonial blockquote{margin:0;font:24px/1.55 var(--serif)}.testimonial figcaption{margin-top:24px;font-size:15px;font-weight:600}.testimonial figcaption span{display:block;font-weight:400;color:var(--muted);margin-top:4px}
+
+/* Personal photography and supporting editorial imagery. */
+.hero-art img{object-position:center 35%}
+.story-photo{display:block;width:100%;height:360px;object-fit:cover;margin:0 0 32px;border-radius:3px}
+.guitar-photo{object-position:center 47%}.outdoor-photo{object-position:center 52%}
+.pagehero.photo-hero{display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:7%;max-width:none;padding:60px 0}
+.photo-hero-copy{min-width:0}.photo-hero-copy h1{font-size:clamp(2.8rem,4.6vw,4.9rem);margin-bottom:30px}.photo-hero-copy .lead{border-left:0;padding-left:0;font-size:20px;max-width:42ch}
+.page-photo{margin:0;min-width:0}.page-photo img{display:block;width:100%;height:530px;object-fit:cover;border-radius:44% 44% 3px 3px}.page-photo figcaption{font-size:12px;color:var(--muted);line-height:1.6;margin-top:14px;max-width:44ch}.page-photo.rob-outdoors img{object-position:center 52%}.page-photo.rob-guitar img{object-position:center;border-radius:3px;height:auto;max-height:600px;object-fit:contain}.page-photo.therapy-notebook img{border-radius:3px;height:450px;object-position:40% center}
+@media(max-width:800px){.pagehero.photo-hero{grid-template-columns:1fr;gap:28px;padding:40px 0}.photo-hero-copy h1{font-size:clamp(2.65rem,8vw,3.8rem)}.photo-hero-copy .lead{font-size:18px;margin-bottom:0}.page-photo{width:100%;max-width:500px;margin:auto}.page-photo img{height:auto;max-height:520px;aspect-ratio:4/5}.page-photo.therapy-notebook img{height:auto;aspect-ratio:4/3}.page-photo.rob-guitar img{max-height:540px}.story-photo{height:340px}.hero-art img{object-position:center 30%}}

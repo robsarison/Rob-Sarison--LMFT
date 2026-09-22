@@ -12,3 +12,10 @@
 | Original YouTube video | [Rob Sarison](https://www.youtube.com/watch?v=2z5Tg5HwfWo) | Home, About, Aging; 16:9 native embed after click | Quality / captions need audiovisual review | Original uploader / video rights holder | USE original embedded player only, subject to uploader enabling embeds. No video or thumbnail downloaded. |
 
 The current video cover is typographic, not a third-party photograph. Once a licensed portrait or approved video still is supplied, it can replace the cover without changing the component. No user portrait or professional action photo was available with verified reuse rights.
+
+
+## Added September 21, 2026
+
+Rob supplied and requested publication of three photographs: B39FB396-2BC8-40CE-9FFD-85D331A23122.jpeg (portrait), IMG_3847.jpeg (outdoors), and IMG_6077.jpeg (guitar). Optimized WebP versions preserve appearance; embedded metadata is excluded. Placement: homepage, About, Drama Therapy, and Training. The guitar picture is described as Rob playing guitar, not as a therapy session.
+
+Supporting notebook image: Kelly Sikkema, https://unsplash.com/photos/a-notebook-with-a-pen-on-top-of-it-1SBcc-Wpz40 — free under the Unsplash License as verified on the source page. Used on Psychotherapy and My Approach as illustrative imagery. Local files therapy-notebook-{600,1200}.webp. Source image https://images.unsplash.com/photo-1598620617377-3bfb505b4384.

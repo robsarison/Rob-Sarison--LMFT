@@ -21,9 +21,9 @@ Examples:
 
 You do not need to edit code. Codex should update the source, rebuild, check the affected pages, and refresh the local preview, then publish approved changes using the GitHub workflow.
 
-## Add SimplePractice
+## SimplePractice booking
 
-Give Codex the three actual public links from your SimplePractice account: appointment request, secure inquiry (if your account supports it), and client portal. Never provide your password or a clinical record.
+Your appointment-request link is https://robert-sarison.clientsecure.me/request and existing-client sign-in is https://robert-sarison.clientsecure.me/sign-in. A separate secure inquiry link has not been provided; the contact page offers the public practice phone number instead. To change these links, give Codex the new public addresses. Never provide your password or a clinical record.
 
 Codex will place the links into `config.json`, under `simplePractice`, and rebuild. The three contact options automatically become working links. There is no form or clinical database on this website. Inquiry functionality depends on the feature actually available in your account; no endpoint has been invented.
 
@@ -63,6 +63,6 @@ The homepage supports genuine, approved testimonials. At Rob’s request, clearl
 
 ## Public website
 
-The public address is https://robsarison.github.io/Rob-Sarison--LMFT/. The full dementia-care presentation is on Aging, Memory Loss & Family Caregiving. Fictional samples are excluded from public builds. Booking and inquiries remain unavailable until real SimplePractice links are supplied.
+The public address is https://robsarison.github.io/Rob-Sarison--LMFT/. The full dementia-care presentation is on Aging, Memory Loss & Family Caregiving. Fictional samples are excluded from public builds. Booking and existing-client sign-in are connected to the SimplePractice portal supplied by Rob. General inquiries use the practice phone number listed on that portal.
 
 To publish updates, save changes to the GitHub repository, open Actions, select “Deploy website to GitHub Pages”, and choose Run workflow on main. Codex can handle this for you. The one-time Pages setting is Settings → Pages → Source: GitHub Actions.

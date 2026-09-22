@@ -6,7 +6,7 @@
   "origin": "https://robsarison.github.io/Rob-Sarison--LMFT",
   "publicLaunch": true,
   "licenseNumber": null,
-  "phone": null,
+  "phone": "415.613.1946",
   "email": null,
   "officeAddress": null,
   "fees": {
@@ -15,9 +15,9 @@
     "family": null
   },
   "simplePractice": {
-    "consultationUrl": null,
+    "consultationUrl": "https://robert-sarison.clientsecure.me/request",
     "inquiryUrl": null,
-    "portalUrl": null
+    "portalUrl": "https://robert-sarison.clientsecure.me/sign-in"
   },
   "socialLinks": [],
   "portrait": null,
