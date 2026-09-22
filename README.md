@@ -6,7 +6,7 @@ Your first version has 15 working pages, including the full psychotherapy sectio
 
 ## Preview
 
-Your private preview runs at http://127.0.0.1:4173/ on this Mac. GitHub source is stored in the public repository you selected. GitHub Pages deployment is prepared but intentionally not activated, honoring your request for a private preview. Noindex is not access control.
+Your private preview runs at http://127.0.0.1:4173/ on this Mac. GitHub source is stored in the public repository you selected. GitHub Pages is configured to publish the public website using the deployment workflow. The local preview is only accessible on this Mac.
 
 For a local preview, tell Codex: “Open the local preview of my Rob Sarison website.” Codex can rebuild and serve `dist` on port 4173. Rebuilds default to local preview paths, so interior-page styles stay intact. Opening an HTML file directly is not recommended because links start at the site root.
 
@@ -19,7 +19,7 @@ Examples:
 - “Set my individual fee to $___ and my couples fee to $___.”
 - “Add this video to About Rob, starting at 1 minute 20 seconds.”
 
-You do not need to edit code. Codex should update the source, rebuild, check the affected pages, and refresh the private website.
+You do not need to edit code. Codex should update the source, rebuild, check the affected pages, and refresh the local preview, then publish approved changes using the GitHub workflow.
 
 ## Add SimplePractice
 
@@ -27,9 +27,9 @@ Give Codex the three actual public links from your SimplePractice account: appoi
 
 Codex will place the links into `config.json`, under `simplePractice`, and rebuild. The three contact options automatically become working links. There is no form or clinical database on this website. Inquiry functionality depends on the feature actually available in your account; no endpoint has been invented.
 
-## Information still needed for public launch
+## Details you can complete next
 
-Your approved portrait and image permissions; verified license details; final fees and session lengths; actual contact/booking links; office arrangements if applicable; cancellation and clinical privacy policies; your review of the copy. The video still needs an audiovisual/caption review and excerpt selection. Source verification notes distinguish your statements from independently supported facts.
+Your approved portrait and image permissions; verified license details; final fees and session lengths; actual contact/booking links; office arrangements if applicable; cancellation and clinical privacy policies; your review of the copy. The original video awaits your preferred timestamps; the dementia-care presentation is included in full. Source verification notes distinguish your statements from independently supported facts.
 
 ## Where things live
 
@@ -45,7 +45,7 @@ Your approved portrait and image permissions; verified license details; final fe
 
 ## GitHub Pages deployment
 
-The requested eventual host is GitHub Pages. The repository is public; the site is not yet published. Enable Pages with GitHub Actions and run the deployment workflow only after authorizing public launch. When ready, ask Codex to connect your final domain, set `origin` to its HTTPS address, connect booking, and enable `publicLaunch`. That setting removes the preview strip and changes robots metadata to permit indexing. A sitemap, canonical URLs, Open Graph metadata and Person structured data are generated for every page. A custom domain can be connected later.
+The host is GitHub Pages and the repository is public. You authorized public launch, Pages now uses GitHub Actions, and `publicLaunch` is enabled. That setting removes the preview strip and fictional samples and permits search-engine indexing. To publish future approved changes, use Actions → Deploy website to GitHub Pages → Run workflow → main → Run workflow. Wait for a green success indicator, then refresh the public website. Ask Codex to handle this whenever you prefer. A sitemap, canonical URLs, Open Graph metadata and Person structured data are generated for every page. A custom domain can be connected later.
 
 The local `export-github.py` helper prepares a flat copy in `github-source` for browser upload. Only the approved source files are included; the Sites registration and credentials are excluded.
 
