@@ -22,12 +22,12 @@ jobs:
       - name: Build website
         run: python build.py
         env:
-          SITE_BASE_PATH: /Rob-Sarison--LMFT
-          SITE_ORIGIN: https://robsarison.github.io/Rob-Sarison--LMFT
+          SITE_BASE_PATH: ''
+          SITE_ORIGIN: https://robsarison.com
       - name: Check pages and links
         run: python check.py
         env:
-          SITE_BASE_PATH: /Rob-Sarison--LMFT
+          SITE_BASE_PATH: ''
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
