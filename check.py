@@ -28,7 +28,7 @@ class Parse(HTMLParser):
    v=a.get(key,'')
    if v.startswith('http:') or v.startswith('//'):errors.append('Insecure resource: '+v)
    if v.startswith('mailto:') and v.split('?',1)[0]!='mailto:'+str(c.get('email')):errors.append('Unapproved email address')
-   if 'clientsecure.me/request' in v:errors.append('Public booking link bypasses email consultation')
+   if 'clientsecure.me' in v:errors.append('Unexpected scheduling platform link')
    if v.startswith('/') or v.startswith('#'):self.links.append(v)
   if tag in ('form','input','textarea'):errors.append('Unexpected form/input collection')
   if tag=='img':
