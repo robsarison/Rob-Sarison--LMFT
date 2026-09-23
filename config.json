@@ -48,8 +48,8 @@
     "family": null
   },
   "consultation": {
-    "minutes": null,
-    "fee": null
+    "minutes": 15,
+    "fee": 0
   },
   "cancellation": {
     "windowHours": null,
