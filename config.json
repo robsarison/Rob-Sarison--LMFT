@@ -7,7 +7,7 @@
   "publicLaunch": true,
   "licenseNumber": "38316",
   "phone": "415.613.1946",
-  "email": null,
+  "email": "robsarison@gmail.com",
   "officeAddress": null,
   "fees": {
     "individual": null,
@@ -15,7 +15,7 @@
     "family": null
   },
   "simplePractice": {
-    "consultationUrl": "https://robert-sarison.clientsecure.me/request",
+    "consultationUrl": null,
     "inquiryUrl": null,
     "portalUrl": "https://robert-sarison.clientsecure.me/sign-in"
   },
