@@ -1,11 +1,11 @@
 {
-  "name": "Rob Sarison",
-  "credentials": "LMFT, RDT",
+  "name": "Robert Sarison",
+  "credentials": "LMFT",
   "location": "San Francisco Bay Area",
   "telehealth": "California telehealth",
-  "origin": "https://robsarison.github.io/Rob-Sarison--LMFT",
+  "origin": "https://robsarison.com",
   "publicLaunch": true,
-  "licenseNumber": null,
+  "licenseNumber": "38316",
   "phone": "415.613.1946",
   "email": null,
   "officeAddress": null,
@@ -37,28 +37,29 @@
       "source": "Alzheimer\u2019s Association California & Nevada"
     }
   ],
-  "basePath": "/Rob-Sarison--LMFT",
-  "testimonials": [
-    {
-      "quote": "I appreciated the balance of thoughtful conversation and practical ideas I could try between sessions.",
-      "attribution": "Individual counseling \u00b7 Sample",
-      "context": "Fictional example for layout review\u2014not a real client quote.",
-      "sample": true,
-      "permissionToPublish": false
-    },
-    {
-      "quote": "We wanted a more useful way to talk about the things we kept getting stuck on. The collaborative approach is what we were looking for.",
-      "attribution": "Couples counseling \u00b7 Sample",
-      "context": "Fictional example for layout review\u2014not a real client quote.",
-      "sample": true,
-      "permissionToPublish": false
-    },
-    {
-      "quote": "Having room to talk about both the emotional side of caregiving and the practical decisions would make a real difference to our family.",
-      "attribution": "Caregiving support \u00b7 Sample",
-      "context": "Fictional example for layout review\u2014not a real client quote.",
-      "sample": true,
-      "permissionToPublish": false
-    }
-  ]
+  "basePath": "",
+  "inPerson": {
+    "offered": null,
+    "location": null
+  },
+  "sessionLengths": {
+    "individual": null,
+    "couples": null,
+    "family": null
+  },
+  "consultation": {
+    "minutes": null,
+    "fee": null
+  },
+  "cancellation": {
+    "windowHours": null,
+    "fee": null
+  },
+  "paymentMethods": [],
+  "superbillsOffered": null,
+  "customDomain": "robsarison.com",
+  "ownerNotes": {
+    "unconfirmed": "Null fields are unconfirmed and must not be published. Enter owner-approved facts only.",
+    "consultation": "SimplePractice listed 15 minutes/no charge on September 21, 2026. Await owner confirmation before showing as a practice fact."
+  }
 }
