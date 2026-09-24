@@ -14,6 +14,7 @@
 .story-photo{display:block;width:100%;height:360px;object-fit:cover;margin:0 0 32px;border-radius:3px}
 .guitar-photo{object-position:center 47%}.outdoor-photo{object-position:center 52%}
 .pagehero.photo-hero{display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:7%;max-width:none;padding:60px 0}
+.couple-photo-pair-images{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;align-items:start}.couple-photo-pair-images img{width:100%;height:auto;aspect-ratio:2/3;object-fit:cover}
 .photo-hero-copy{min-width:0}.photo-hero-copy h1{font-size:clamp(2.8rem,4.6vw,4.9rem);margin-bottom:30px}.photo-hero-copy .lead{border-left:0;padding-left:0;font-size:20px;max-width:42ch}
 .page-photo{margin:0;min-width:0}.page-photo img{display:block;width:100%;height:530px;object-fit:cover;border-radius:44% 44% 3px 3px}.page-photo figcaption{font-size:12px;color:var(--muted);line-height:1.6;margin-top:14px;max-width:44ch}.page-photo.rob-outdoors img{object-position:center 52%}.page-photo.rob-guitar img{object-position:center;border-radius:3px;height:auto;max-height:600px;object-fit:contain}.page-photo.therapy-notebook img{border-radius:3px;height:450px;object-position:40% center}
 @media(max-width:800px){.pagehero.photo-hero{grid-template-columns:1fr;gap:28px;padding:40px 0}.photo-hero-copy h1{font-size:clamp(2.65rem,8vw,3.8rem)}.photo-hero-copy .lead{font-size:18px;margin-bottom:0}.page-photo{width:100%;max-width:500px;margin:auto}.page-photo img{height:auto;max-height:520px;aspect-ratio:4/5}.page-photo.therapy-notebook img{height:auto;aspect-ratio:4/3}.page-photo.rob-guitar img{max-height:540px}.story-photo{height:340px}.hero-art img{object-position:center 30%}}
@@ -33,3 +34,6 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 @media(max-width:1100px){.navlinks .button{max-width:none}.services-links{position:static;box-shadow:none;width:100%;border:0;border-left:2px solid var(--control-line);padding:0 0 0 20px}.services-nav summary{padding:10px}.navlinks .portal{order:5}.navlinks>a{white-space:normal}.navlinks.open{display:flex}}
 @media(max-width:800px){.practice-facts>div{grid-template-columns:1fr;gap:6px}.contact-card{min-width:0}.cta .button{width:100%;margin-top:24px}.pair article+article{padding-left:0}.pagehero h1{font-size:clamp(2.5rem,8vw,3.8rem)}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
+
+/* Keep the couples-page photo pair visually balanced across source orientations. */
+.page-photo .couple-photo-pair-images img{aspect-ratio:1;object-fit:cover}
