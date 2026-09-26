@@ -9,7 +9,7 @@ assert base=='' or (base.startswith('/') and not base.endswith('/')), 'Invalid S
 c['origin']=origin
 D=Path(os.environ.get('SITE_OUTPUT',str(ROOT/'dist')));D.mkdir(parents=True,exist_ok=True)
 for old in D.rglob('*.html'):old.unlink()
-for f in ['style.css','app.js']+[p.name for p in S.iterdir() if p.suffix in ('.webp','.png')]:
+for f in ['style.css','app.js']+[p.name for p in S.iterdir() if p.suffix in ('.webp','.png','.jpeg','.jpg')]:
  shutil.copy(S/f,D/f)
 css_hash=hashlib.sha256((S/'style.css').read_bytes()).hexdigest()[:10]
 js_hash=hashlib.sha256((S/'app.js').read_bytes()).hexdigest()[:10]

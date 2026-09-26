@@ -37,3 +37,12 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 
 /* Keep the couples-page photo pair visually balanced across source orientations. */
 .page-photo .couple-photo-pair-images img{aspect-ratio:1;object-fit:cover}
+
+
+
+/* Keep source workshop images at comfortable sizes and preserve their proportions. */
+.page-photo.drama-improv-photo img{height:auto;max-height:520px;aspect-ratio:auto;object-fit:contain;border-radius:6px}
+.article .page-photo.drama-care-activity{max-width:590px;margin:30px 0}
+.article .page-photo.drama-care-activity img{height:auto;max-height:none;aspect-ratio:auto;object-fit:contain;border-radius:6px}
+.article .page-photo.rob-guitar-care-group{max-width:229px;margin:28px 0 18px}
+.article .page-photo.rob-guitar-care-group img{height:auto;max-height:none;aspect-ratio:auto;object-fit:contain;border-radius:6px}
