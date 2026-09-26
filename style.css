@@ -46,3 +46,16 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 .article .page-photo.drama-care-activity img{height:auto;max-height:none;aspect-ratio:auto;object-fit:contain;border-radius:6px}
 .article .page-photo.rob-guitar-care-group{max-width:229px;margin:28px 0 18px}
 .article .page-photo.rob-guitar-care-group img{height:auto;max-height:none;aspect-ratio:auto;object-fit:contain;border-radius:6px}
+
+/* Present career awards as a contained editorial image, retaining the clean cutout. */
+.article .page-photo.career-awards{max-width:620px;margin:4px 0 8px}
+.article .page-photo.career-awards img{width:100%;height:auto;max-height:none;aspect-ratio:auto;object-fit:contain;border-radius:0;background:transparent}
+.article .page-photo.career-awards figcaption{max-width:54ch;font-size:13px}
+.article .page-photo.about-workshop{max-width:520px;margin:28px 0 8px}
+.article .page-photo.about-workshop img{width:100%;height:auto;max-height:none;aspect-ratio:auto;object-fit:contain;border-radius:6px}
+.career-recognition-photos{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.82fr);gap:20px;align-items:center;max-width:860px;margin:26px 0 8px}
+.career-recognition-photos .page-photo{width:100%;max-width:none;margin:0}
+.career-recognition-photos .page-photo img{display:block;width:100%;height:270px;max-height:270px;object-fit:contain;border-radius:0;background:transparent}
+.career-recognition-photos .recognition-headshot img{object-fit:cover;object-position:center 48%;border-radius:6px}
+.career-recognition-photos .career-awards figcaption{font-size:12px;max-width:36ch}
+@media(max-width:520px){.career-recognition-photos{grid-template-columns:1fr 1fr;gap:14px}.career-recognition-photos .page-photo img{height:220px;max-height:220px}}
