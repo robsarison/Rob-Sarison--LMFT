@@ -69,3 +69,15 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 
 .article .drama-quote-layout{display:flex;flex-direction:column;gap:20px;align-items:stretch;margin:26px 0 42px}.article .drama-quote-layout .editorial-quote{width:100%;margin:0;padding:24px 30px 22px;background:#ebe9e2;border-left:3px solid var(--accent);font:clamp(19px,1.6vw,23px)/1.48 var(--serif);color:var(--blue);text-align:center}.article .drama-quote-layout .editorial-quote cite{font-style:normal;font-size:13px}.article .drama-quote-layout .editorial-quote cite a{text-decoration-thickness:1px;text-underline-offset:3px}.article .drama-quote-copy p{margin-bottom:18px}.article .drama-quote-copy p:last-child{margin-bottom:0}
 @media(max-width:800px){.article .drama-quote-layout .editorial-quote{width:100%;padding:22px 20px}}
+
+/* Individual therapy: Option 2 “How I work” panel */
+.editorial-intro:has(.how-panel){max-width:none;margin:36px 0 0}
+.how-panel{display:grid;grid-template-columns:.9fr 1.1fr;gap:7%;align-items:center;background:#e8ebe6;margin:0;padding:38px 44px;border-top:3px solid var(--accent)}
+.how-title{font-family:Georgia,serif;font-size:clamp(2rem,3.2vw,3rem);line-height:1.08;margin:0;color:var(--blue)}
+.how-words .eyebrow{margin-bottom:18px;color:var(--muted)}
+.how-copy p{font-size:18px;line-height:1.75;color:var(--muted);margin:0;max-width:60ch}
+.small-mark{display:flex;align-items:center;gap:7px;margin-top:24px}
+.small-mark i{display:block;width:8px;height:8px;border-radius:50%;background:#b45a39}
+.small-mark i:nth-child(2){background:#78938c;width:13px;height:13px}
+.small-mark i:nth-child(3){background:#153b50}
+@media(max-width:800px){.editorial-intro:has(.how-panel){margin-top:24px}.how-panel{grid-template-columns:1fr;gap:22px;padding:28px 24px}.how-title{font-size:2.25rem}.how-copy p{font-size:16px}}
