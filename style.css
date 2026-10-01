@@ -81,3 +81,26 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 .small-mark i:nth-child(2){background:#78938c;width:13px;height:13px}
 .small-mark i:nth-child(3){background:#153b50}
 @media(max-width:800px){.editorial-intro:has(.how-panel){margin-top:24px}.how-panel{grid-template-columns:1fr;gap:22px;padding:28px 24px}.how-title{font-size:2.25rem}.how-copy p{font-size:16px}}
+
+/* Structured homepage specialties section */
+.specialties-live{padding:86px 0 90px;background:#e8ece8}
+.specialties-live .section-head{margin-bottom:54px}
+.specialties-live .section-head h2{font-size:clamp(2.6rem,4.5vw,4.1rem)}
+.specialties-live .section-head>p{max-width:440px}
+.specialty-group+.specialty-group{margin-top:53px}
+.specialty-group-head{display:flex;align-items:center;gap:22px;margin-bottom:20px}
+.specialty-kicker{font-size:12px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:#52636a;white-space:nowrap}
+.specialty-rule{height:1px;background:#c4cdc7;width:100%}
+.specialty-primary-grid,.specialty-secondary-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.specialty-card{position:relative;min-height:300px;padding:28px 28px 24px;background:#f8f7f2;border:1px solid #d9ded8;display:flex;flex-direction:column;align-items:flex-start}
+.specialty-card-primary{min-height:330px;box-shadow:0 8px 24px rgba(23,47,64,.035)}
+.specialty-index{font-size:11px;letter-spacing:.13em;font-weight:700;color:#b45a39;margin-bottom:29px}
+.specialty-card h3{font-size:clamp(1.45rem,2.1vw,1.9rem);margin:0 0 15px}
+.specialty-card .specialty-bullets{list-style:none;padding:0;margin:0 0 14px;color:#52636a;font-size:14px;line-height:1.5}
+.specialty-card .specialty-bullets li{position:relative;padding-left:16px;margin:0 0 7px}
+.specialty-card .specialty-bullets li::before{content:"";position:absolute;left:0;top:.68em;width:5px;height:5px;border-radius:50%;background:#b45a39}
+.specialty-card .specialty-note{font-size:12px;letter-spacing:.045em;text-transform:uppercase;color:#315c61;border-top:1px solid #dfe5df;padding-top:12px;margin:0 0 2px;width:100%}
+.specialty-card .textlink{margin-top:auto;padding:17px 0 0;font-size:14px}
+.specialty-card .textlink span{color:#b45a39;margin-left:3px}
+.specialty-card-secondary{min-height:280px;background:transparent;border-color:#ccd4ce}
+@media(max-width:800px){.specialties-live{padding:62px 0}.specialty-primary-grid,.specialty-secondary-grid{grid-template-columns:1fr;gap:14px}.specialty-card,.specialty-card-primary,.specialty-card-secondary{min-height:unset;padding:24px}.specialty-index{margin-bottom:18px}.specialty-card .textlink{margin-top:5px}.specialty-group+.specialty-group{margin-top:38px}.specialties-live .section-head{margin-bottom:38px}}
